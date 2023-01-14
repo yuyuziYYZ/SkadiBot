@@ -102,7 +102,7 @@ async def handle_cao():
 about = on_command("关于", aliases={"源码"})
 @about.handle()
 async def handle_about():
-    msg = "项目地址：https://github.com/yuyuziYYZ/skadi_bot"
+    msg = "项目地址：https://github.com/yuyuziYYZ/SkadiBot"
     await about.finish(msg)
 
 
